@@ -13,6 +13,7 @@
     "dataset:sample": "tsx scripts/convert-dive-dataset.ts data/sample/jobs.sample.json data/generated/jobs.normalized.json"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.5",
     "@react-native-async-storage/async-storage": "^2.1.2",
     "@react-navigation/bottom-tabs": "^7.3.14",
     "@react-navigation/native": "^7.1.10",
@@ -24,15 +25,17 @@
     "expo-notifications": "^0.31.3",
     "expo-status-bar": "^2.2.3",
     "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.5",
     "react-native-safe-area-context": "^5.4.0",
-    "react-native-screens": "^4.11.1"
+    "react-native-screens": "4.11.1",
+    "react-native-web": "^0.20.0"
   },
   "devDependencies": {
+    "@types/node": "^22.15.21",
     "@types/react": "^19.0.14",
-    "typescript": "^5.8.3",
-    "tsx": "^4.19.4",
     "babel-plugin-module-resolver": "^5.0.2",
-    "@types/node": "^22.15.21"
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
   }
 }
