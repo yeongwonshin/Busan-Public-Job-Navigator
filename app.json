@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "부산공공잡 내비",
+    "slug": "busan-public-job-navigator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "bpublicjob",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "kr.busan.publicjob.navigator"
+    },
+    "android": {
+      "package": "kr.busan.publicjob.navigator",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B5FFF"
+      },
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-calendar",
+      "expo-document-picker"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B5FFF"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "DIVE 2026 제공 데이터셋 컬럼명이 확정되면 이 매핑만 수정하세요. 오른쪽 값은 원본 데이터셋의 컬럼명입니다.",
+  "fields": {
+    "id": ["id", "공고ID", "채용공고ID", "채용번호"],
+    "title": ["title", "공고명", "채용제목", "제목"],
+    "institution": ["institution", "기관명", "채용기관", "공사공단명"],
+    "department": ["department", "담당부서", "부서명"],
+    "employmentType": ["employmentType", "고용형태", "채용유형"],
+    "jobCategory": ["jobCategory", "직무분야", "분야", "직렬"],
+    "roles": ["roles", "모집분야", "채용분야", "직무"],
+    "recruitCount": ["recruitCount", "모집인원", "채용인원"],
+    "workRegion": ["workRegion", "근무지역", "지역"],
+    "workLocation": ["workLocation", "근무지", "근무장소"],
+    "applicationStartAt": ["applicationStartAt", "접수시작일", "접수시작"],
+    "applicationEndAt": ["applicationEndAt", "접수마감일", "접수마감", "마감일"],
+    "applicationUrl": ["applicationUrl", "접수URL", "지원링크"],
+    "originalUrl": ["originalUrl", "원문URL", "공고URL", "상세URL"],
+    "applicationMethod": ["applicationMethod", "접수방법"],
+    "eligibilityText": ["eligibilityText", "지원자격", "응시자격"],
+    "preferenceText": ["preferenceText", "우대사항", "가산점"],
+    "processText": ["processText", "전형절차", "전형일정"],
+    "documentsText": ["documentsText", "제출서류"],
+    "cautionText": ["cautionText", "유의사항", "주의사항"]
+  }
+}

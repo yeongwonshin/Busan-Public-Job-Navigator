@@ -1,0 +1,20 @@
+[
+  {
+    "id": "change-001",
+    "jobId": "b-public-2026-003",
+    "type": "updated",
+    "field": "applicationEndAt",
+    "before": "2026-07-18T17:00:00+09:00",
+    "after": "2026-07-19T17:00:00+09:00",
+    "detectedAt": "2026-06-30T11:10:00+09:00"
+  },
+  {
+    "id": "change-002",
+    "jobId": "b-public-2026-005",
+    "type": "new",
+    "field": "job",
+    "before": null,
+    "after": "부산도시공사 데이터·도시계획 직무 채용형 인턴",
+    "detectedAt": "2026-06-30T11:20:00+09:00"
+  }
+]

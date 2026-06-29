@@ -1,0 +1,38 @@
+[
+  {
+    "id": "policy-001",
+    "title": "부산 청년 취업상담 프로그램",
+    "category": "상담",
+    "target": ["청년", "취업준비생"],
+    "triggerKeywords": ["자기소개서", "면접", "진로"],
+    "description": "공공기관 지원 전 직무 탐색, 자기소개서, 면접 방향을 상담받을 수 있는 프로그램입니다.",
+    "url": "https://example.com/policies/counseling"
+  },
+  {
+    "id": "policy-002",
+    "title": "면접 정장 대여 드림옷장",
+    "category": "면접지원",
+    "target": ["면접예정자", "청년"],
+    "triggerKeywords": ["면접", "정장", "복장"],
+    "description": "면접 일정이 있는 부산 청년에게 면접 정장 대여를 연결합니다.",
+    "url": "https://example.com/policies/suit"
+  },
+  {
+    "id": "policy-003",
+    "title": "NCS 직업기초능력 온라인 특강",
+    "category": "교육",
+    "target": ["공공기관 취업준비생"],
+    "triggerKeywords": ["NCS", "필기", "수리", "문제해결"],
+    "description": "공공기관 필기시험을 준비하는 청년에게 NCS 학습 자료와 모의문항을 제공합니다.",
+    "url": "https://example.com/policies/ncs"
+  },
+  {
+    "id": "policy-004",
+    "title": "데이터 직무 포트폴리오 클리닉",
+    "category": "직무교육",
+    "target": ["데이터 직무 희망자"],
+    "triggerKeywords": ["데이터", "포트폴리오", "SQL", "Python"],
+    "description": "공공데이터 분석 직무 지원자를 위한 프로젝트 포트폴리오 개선 프로그램입니다.",
+    "url": "https://example.com/policies/data-portfolio"
+  }
+]
