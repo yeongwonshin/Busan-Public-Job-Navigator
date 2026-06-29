@@ -4,11 +4,16 @@
     "module": "ESNext",
     "jsx": "react-native",
     "strict": true,
-    "lib": ["ES2020", "DOM"],
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
     "moduleResolution": "Bundler",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -22,5 +27,6 @@
     "src/**/*.tsx",
     "scripts/**/*.ts",
     "data/**/*.json"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
